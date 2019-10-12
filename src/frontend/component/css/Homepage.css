@@ -1,0 +1,123 @@
+.menu {
+    line-height: 64px;
+    font-size: 1.2em; 
+    float: right;
+    width: 50vw;
+    text-align: right;
+}
+@media screen and (max-width: 700px) {
+    .menu {
+        width: 30vw;
+    }
+}
+@media screen and (max-width: 500px) {
+    .menu {
+        width: 5px;
+    }
+}
+
+.logo {
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.01);
+    margin-top: 9px;
+    margin-bottom: auto;
+    float: left;
+}
+@media screen and (max-width: 700px) {
+    .logo {
+        display: none;
+    }
+}
+
+.title {
+    color: azure;
+    font-size: 2.5em;
+    min-width: 3vw;
+    width: 5em;
+    height: inherit;
+    background: rgba(255, 255, 255, 0.01);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1em;
+    margin-right: auto;
+    float: left;
+}
+@media screen and (max-width: 700px) {
+    .title {
+        font-size: 2em;
+    }
+}
+@media screen and (max-width: 300px) {
+    .title {
+        margin-left: -20px;
+        width: 4.3em;
+        font-size: 1em;
+    }
+}
+
+h1.ant-typography.SubTitle {
+    margin-top: 2vh;
+}
+h1.ant-typography.SubTitle.OnSale {
+    color: salmon;
+    text-shadow: 4px 4px skyblue;
+    text-align: center;
+    font-size: 6em;
+}
+
+ul.ant-card-actions {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+div.ant-card-body {
+    position: absolute;
+    bottom: 48px;
+    width: 100%;
+}
+
+div.ant-card-cover {
+    height: inherit;
+}
+
+.ant-carousel .slick-slide {
+    height: 540px;
+    background: #e0e0e0be;
+}
+
+.ant-carousel .slick-slide h3 {
+    color: #fff;
+}
+
+.PromotionPrice {
+    overflow:hidden !important;
+    text-overflow:ellipsis !important;
+    margin-left:auto;
+    margin-right:auto;
+    width:55vw !important;
+    text-align:center;
+    position:relative !important;
+    top:3px !important;
+    color:red !important;
+    text-shadow:4px 4px skyblue;
+    font-size: 2.1em !important;
+}
+@media screen and (max-width: 900px) {
+    .PromotionPrice {
+        font-size: 1.7em !important;
+    }
+}
+@media screen and (max-width: 500px) {
+    .PromotionPrice {
+        font-size: 1.5em !important;
+    }
+}
+
+.RecipeCardTitle {
+    overflow:hidden !important;
+    text-overflow:ellipsis !important;
+    font-size: 1em !important;
+    max-width: 180px;
+}

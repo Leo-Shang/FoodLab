@@ -1,0 +1,27 @@
+.ui.animated.button.cart{
+    position: fixed !important;
+    bottom: 100px !important;
+    right: 100px !important;
+    background:lightgreen;
+    opacity: 0.3;
+    line-height: 1em;
+    width: 8em;
+    border-radius: .5rem;
+    float: left;
+}
+
+.ui.vertical.animated.button .hidden .content {
+    top:-30%;
+}
+
+.changable{
+    position: fixed !important;
+    bottom: 140px !important;
+    right: 100px !important;
+    float: right;
+}
+
+input.quantity{
+
+    width: 3em;
+}
